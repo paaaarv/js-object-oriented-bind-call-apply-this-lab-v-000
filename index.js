@@ -3,10 +3,8 @@ function justInvoke(fn){
   return fn()
 }
 
-function setThisWithCall(age){
-  this.name = "bob"
-
+function setThisWithCall(fn, thisValue, arg){
+  fn.call(arg){
+    return thisValue
+  }
 }
-
-let bob = {name: "bob"}
-setThisWithCall.call(bob)
