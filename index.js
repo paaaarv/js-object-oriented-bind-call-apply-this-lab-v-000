@@ -4,7 +4,7 @@ function justInvoke(fn){
 }
 
 function setThisWithCall(age){
-  return age
+  this.name = "bob"
 }
 
 let bob = setThisWithCall.call(18)
