@@ -4,7 +4,7 @@ function justInvoke(fn){
 }
 
 function setThisWithCall(callback, bob, age){
-  return callback(bob){
+   callback(bob){
     return age
   }
 }
