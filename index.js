@@ -13,5 +13,5 @@ function setThisWithApply(fn, thisValue, arg){
 
 function returnNewFunctionOf(fn){
   let fred = fn.bind()
-  return fred
+  return fred.call()
 }
