@@ -3,4 +3,6 @@ function justInvoke(fn){
   return fn()
 }
 
-function setThisWithCall(callback, bob, age){}
+function setThisWithCall(age){}
+
+let bob = setThisWithCall.call(18)
